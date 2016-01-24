@@ -20,5 +20,7 @@
     <string name="status_quote">\'My brother is a mascot at HackBeanPot\'</string>
     <string name="UserName">PolyPepe - Brother of Lickipepe</string>
     <string name="History">History</string>
+    <string name="Question_option">How do you tell your story?</string>
+    <string name="option_activity">option activity</string>
 
 </resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.storyteller.witbp.storyteller.OptionScreen"
+    android:background="@drawable/background"
+    android:columnCount="6"
+    android:rowCount="19">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/pencil" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/picture" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView6"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/video" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/microphone_in_fist" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="330dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/question" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Question_option"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="30sp" />
+
+</FrameLayout>
