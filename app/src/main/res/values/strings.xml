@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StoryTeller</string>
+    <string name="app_name">Long Story Short</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -14,7 +14,7 @@
         completions."
     </string>
     <string name="app_id">1682830481985771</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Home</string>
     <string name="facebook_app_id">1682830481985771</string>
     <string name="UserID">Large Text</string>
     <string name="status_quote">\'My brother is a mascot at HackBeanPot\'</string>
