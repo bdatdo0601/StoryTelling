@@ -22,5 +22,6 @@
     <string name="History">History</string>
     <string name="Question_option">How do you tell your story?</string>
     <string name="option_activity">option activity</string>
+    <string name="title_activity_textinput">textinput</string>
 
 </resources>
