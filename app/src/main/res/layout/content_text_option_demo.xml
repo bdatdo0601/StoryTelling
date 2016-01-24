@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbfbfb"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.12"
+        android:text="(TEXT)                 Enter no more than 250 characters:"
+        android:textColor="#151098"
+        android:textSize="40dp"
+        android:textColorHighlight="#c5aa91"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="visible"
+        android:id="@+id/txt1"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.73"
+        android:background="#e6dddd"
+        android:id="@+id/txtInput"
+        android:editable="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:background="#2d8e37"
+        android:enabled="true"
+        android:id="@+id/bSumbit"
+        android:layout_weight="0.08"
+        android:elevation="20dp"
+        android:foregroundTint="#277f16"
+        android:text="SUBMIT"
+        android:textColor="#af136e"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="visible"
+        android:gravity="center"
+        android:onClick="buttonOnClick">
+
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="126dp"
+        android:id="@+id/bBack"
+        android:background="@android:drawable/bottom_bar"
+        android:backgroundTint="#d61010"
+        android:clickable="true"
+        android:elevation="20dp"
+        android:enabled="true"
+        android:text="BACK"
+        android:textColor="#060505"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_gravity="right">
+
+    </Button>
+
+</LinearLayout>
