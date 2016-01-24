@@ -23,5 +23,16 @@
     <string name="Question_option">How do you tell your story?</string>
     <string name="option_activity">option activity</string>
     <string name="title_activity_textinput">textinput</string>
+    <string name="title_activity_story">The Legend of Lickipepe</string>
+    <string name="large_text">
+        "There once was a legendary lickitung, he was the greatest Lickitung in all of the pokemon universe and one day he went out to explore and found his brother Pepemong and was like “bruh, let’s go to HackBeanpot 2016” PepeMong agreed to go.\n\n"
+
+        "But then on their way to HackBeanpot 2016, they got attacked by the winter dragon named Jason and had to fight their way around him. Luckily, Kanye West was just waking up from his Kanye rest and did his Kanye best to fight the dragon. \n\n"
+
+        "But you know, just like Kanye’s rap career, it wasn’t good enough and he died before lickitung and pepemong’s eyes. Luckily, with one last blow the dragon disappeared and they continued off to HackBeanpot 2016. \n\n"
+
+        "“Ohh whoops,” said Pepemong, “turns out I got the wrong date and HackBeanpot 2016 is actually a week away from now, so what do you wanna do?” Lickitung replied, “how about we go exploring around Boston then?”\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
 
 </resources>

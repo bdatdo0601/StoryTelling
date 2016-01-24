@@ -20,14 +20,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+        <com.pkmmte.view.CircularImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profilepics"
             android:id="@+id/imageView"
-            android:src="@drawable/profilepics" />
+            app:border="true"
+            app:border_color="#000000"
+            app:border_width="4dp"
+            app:shadow="true"
+            />
 
         <TextView
-            android:layout_width="196dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/UserName"
@@ -46,6 +51,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/status_quote"
+            android:textColor="#008000"
             android:id="@+id/textView2"
             android:paddingLeft="10dp"
             android:layout_below="@+id/textView"
@@ -78,7 +84,12 @@
             android:layout_height="357dp"
             android:layout_margin="10dp"
             android:id="@+id/listView"
-            android:background="#4effffff" />
+            android:divider="#000000"
+            android:dividerHeight="2dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/border_ui"
+            />
 
     </LinearLayout>
 

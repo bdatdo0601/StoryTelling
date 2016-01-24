@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -30,10 +31,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView UserName = (TextView) findViewById(R.id.textView);
         UserName.setText(UserID);
-        String[] History = {"Story 1", "Story 2","The day my brother evolve", "Gotta lick'em all", "Yolo",  "Pepemon","Frickin' Frick","Dat Ninja Doe"};
+        String[] History = {"The Legend of Lickipepe", "Story 2","The day my brother evolve", "Gotta lick'em all", "Yolo",  "Pepemon","Frickin' Frick","Dat Ninja Doe"};
         ListAdapter FirstAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_selectable_list_item, History);
         ListView PastStory = (ListView)findViewById(R.id.listView);
         PastStory.setAdapter(FirstAdapter);
+        PastStory.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position == 0) {
+                    option_Activity = new Intent(MainActivity.this, StoryActivity.class);
+                    startActivity(option_Activity);
+                }
+            }
+        });
         com.github.clans.fab.FloatingActionButton button1 = (com.github.clans.fab.FloatingActionButton) findViewById(R.id.menu_item);
         com.github.clans.fab.FloatingActionButton button2 = (com.github.clans.fab.FloatingActionButton) findViewById(R.id.menu_item_2);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 //connect to option_page
                 option_Activity = new Intent(MainActivity.this, OptionScreen.class);
                 startActivity(option_Activity);
-                Toast.makeText(MainActivity.this, "Option page coming soon", Toast.LENGTH_SHORT).show();
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
